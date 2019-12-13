@@ -1,6 +1,6 @@
 # Site settings
 title: Blog Aksisoft MEDIA
-url: "https://aksisoftsby.github.io/blog.aksisoft.com"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
+url: "https://blog.aksisoft.com"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
 baseurl: "/" # the prefix of your site uri, eg. `"/jekyll-theme-EasyBook"` or empty string `""`
 #timezone: Asia/Chongqing
 description: >
@@ -9,7 +9,7 @@ description: >
 # Your information
 email: admin@aksisoft.com
 author: aksisoft
-avatar: "//www.gravatar.com/avatar/your_email_md5?d=mm&s=135"
+avatar: "//www.gravatar.com/avatar/930d9664c0168c820b27f63f8f98eed2?d=mm&s=135"
 profile: Portfolio Aksisoft MEDIA
 #twitter_username: twitter_username
 #github_username:  github_username
