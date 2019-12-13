@@ -15,7 +15,7 @@ profile: Portfolio Aksisoft MEDIA
 #github_username:  github_username
 profile_links:
   Email: "mailto:admin@aksisoft.com"
-  GitHub: "https://github.com/aksisoftsby/blog.aksisoft.com"
+  GitHub: "https://github.com/aksisoftsby/"
   # You can add more profile links above, or edit _includes/sidebar.html 
 
 # Comment Service (Disqus or 多说)
@@ -29,7 +29,7 @@ header:
   links:             # Links on the header. Link to in-site page with a slash as prefix
     About: /about/
     Category: /category/
-    Donate: https://aksisoft.com/kontak
+    Aksisoft: https://aksisoft.com/kontak
 
 permalink: /archivers/:title
 plugins:
@@ -41,6 +41,7 @@ plugins:
  - jekyll-sitemap
  - jekyll-redirect-from
  - jekyll-avatar
+ - jekyll-assets
 
 # Build settings
 paginate: 5
