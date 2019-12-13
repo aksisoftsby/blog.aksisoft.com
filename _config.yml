@@ -1,21 +1,21 @@
 # Site settings
-title: Another Blog
+title: Blog Aksisoft MEDIA
 url: "http://laobubu.github.io"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
 baseurl: "/jekyll-theme-EasyBook" # the prefix of your site uri, eg. `"/jekyll-theme-EasyBook"` or empty string `""`
 #timezone: Asia/Chongqing
 description: >
-  One or more sentences introducing this blog.
+  Portfolio Aksisoft MEDIA
 
 # Your information
-email: your_email@example.com
-author: your_name
+email: admin@aksisoft.com
+author: aksisoft
 avatar: "//www.gravatar.com/avatar/your_email_md5?d=mm&s=135"
-profile: One sentence introducing yourself.
+profile: Portfolio Aksisoft MEDIA
 #twitter_username: twitter_username
 #github_username:  github_username
 profile_links:
-  Email: "mailto:your_email@example.com"
-  GitHub: "https://github.com/laobubu/jekyll-theme-EasyBook"
+  Email: "mailto:admin@aksisoft.com"
+  GitHub: "https://github.com/aksisoftsby/blog.aksisoft.com"
   # You can add more profile links above, or edit _includes/sidebar.html 
 
 # Comment Service (Disqus or 多说)
@@ -29,13 +29,18 @@ header:
   links:             # Links on the header. Link to in-site page with a slash as prefix
     About: /about/
     Category: /category/
-    Donate: https://laobubu.net/donate.html
+    Donate: https://aksisoft.com/kontak
 
 permalink: /archivers/:title
 plugins:
  - jekyll-paginate
  - jekyll-gist
  - jemoji
+ - jekyll-seo-tag
+ - jekyll-feed
+ - jekyll-sitemap
+ - jekyll-redirect-from
+ - jekyll-avatar
 
 # Build settings
 paginate: 5
